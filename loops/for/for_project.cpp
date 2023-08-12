@@ -33,9 +33,15 @@ int main()
     // cout << nums[5];
 
 
-    for (int i =numCounter-1; i >=2; i--)
-    {
-        cout << nums[i] << endl;
-    }
+    // for (int i =numCounter-1; i >=2; i--)
+    // {
+    //     cout << nums[i] << endl;
+    // }
+
+
+int year=100;
+  for(year=0;year>0;year+=100){
+    return year ;
+  }
     return 0;
 }
