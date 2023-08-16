@@ -2,8 +2,17 @@
 #include <iostream>
 #include <math.h>
 using namespace std;
+// Price of Mangoes V4 ==> 1
+int mango(int quantity, int price)
+{
+    cout << (quantity - quantity / 3) * price;
+    return 0;
+}
 int main()
 {
+
+    mango(5, 3);
+    return 0;
     //******* problem 2 *********
 
     // int year;
@@ -63,15 +72,13 @@ int main()
     // }
     // cout<< reversed;
 
-    //a, e, i, o, u
+    // a, e, i, o, u
 
-    char str[] = "ahmed";
-    int length = sizeof(str) / sizeof(str[0]);
+    // char str[] = "ahmed";
+    // int length = sizeof(str) / sizeof(str[0]);
 
-    for (int i = length; i>=0; i--)
-    {
-        cout<< str[i];
-    }
-
-    return 0;
+    // for (int i = length; i>=0; i--)
+    // {
+    //     cout<< str[i];
+    // }
 }
