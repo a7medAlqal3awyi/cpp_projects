@@ -19,7 +19,6 @@ int main()
     //         odd_nums += nums[i];
     //     }
     // }
-
     // cout << " Total Even " << even_nums << '\n';
     // cout << " Total Odd " << odd_nums << '\n';
     // cout << " Total " << res << '\n';
@@ -53,17 +52,17 @@ int main()
     //     }
     //**************************************************************
     // resversed numbers
-    int vals[5];
-    int n1, n2, n3, n4, n5, num;
-    for (int i = 0; i < 5; i++)
-    {
-        cout << "Enter the nuber \n";
-        cin >> num;
-        vals[i] = num;
-    }
-    cout << "********\n";
-    for (int i = 4; i >= 0; i--)
-    {
-        cout << vals[i] << endl;
-    }
+    // int vals[5];
+    // int n1, n2, n3, n4, n5, num;
+    // for (int i = 0; i < 5; i++)
+    // {
+    //     cout << "Enter the nuber \n";
+    //     cin >> num;
+    //     vals[i] = num;
+    // }
+    // cout << "********\n";
+    // for (int i = 4; i >= 0; i--)
+    // {
+    //     cout << vals[i] << endl;
+    // }
 }
